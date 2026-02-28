@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TSP Explorer — Voyageur de Commerce</title>
-</head>
-<body>
-  <h1>TSP Explorer</h1>
-  <p>Fichier ajouté pour publication via GitHub Pages. Ouvre le dépôt pour voir la page.</p>
-</body>
-</html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TSP Explorer — Voyageur de Commerce</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#0a0a0f;--bg2:#111118;--bg3:#16161f;--panel:#1a1a26;
+    --border:#2a2a3f;--accent:#e8ff3a;--accent2:#ff6b35;
+    --accent3:#3affe8;--text:#e8e8f0;--muted:#6b6b85;
+    --colA:#e8ff3a;--colB:#ff6b35;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;min-height:100vh;overflow-x:hidden;}
+
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);background:rgba(10,10,15,0.92);backdrop-filter:blur(12px);}
+  .logo{font-family:'Space Mono',monospace;font-size:13px;letter-spacing:.15em;color:var(--accent);}
+  .logo span{color:var(--muted);} 
+  ... (full file content omitted here for brevity in the patch)
